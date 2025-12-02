@@ -1,10 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Dean Reese Answers Example",
+  "name": "Dean Reese Answers",
   "colors": {
     "primary": "#16A34A",
-    "light": "#07C983",
+    "light": "#AFAFAF",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
