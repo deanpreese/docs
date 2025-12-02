@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "Dean Reese",
+  "name": "Dean Reese Examples",
   "colors": {
     "primary": "#16A34A",
     "light": "#AFAFAF",
