@@ -1,0 +1,148 @@
+---
+title: "Task One"
+---
+
+1. What metrics/KPIs in your opinion would…
+    - Signal customer success is succeeding as a function
+    - Determine customer health for our product
+    - Determine what feature requests engineering or product should prioritize?
+2. What in your opinion are the expansion levers for our product? How would you systematically drive that expansion across our customers?
+3. What are the stickiest features of our product? How do you think about preventing churn re: those features?
+4. What is the first step you would take to solve the age-old problem of engineering resource constraints and enterprise customers who want new features shipped urgently?
+
+## Success Metrics and KPIs
+How do we know if we are succeeding?
+#### Product adoption and usage
+- Time to value, how fast a customer goes from signup → published docs.
+- Assistant queries, Writing agent usage, MCP server/agent workflows initiated per week.
+- % of core features adopted
+- Feature Adoption Velocity – how fast new features get adopted by existing customers.
+
+#### Support and efficiency
+- % of tickets answered by docs/AI assistant vs human support
+- Reduced time-to-resolution for common issues after docs go live, measured before/after implementation.
+
+Many of these should be tracked by analytics. We additionally then would partner with key high-volume customers, gathering data and an understanding of how they are using the product. Where they are succeeding and where are they failing. And what's missing.
+
+#### Outcomes and sentiment
+- Net Revenue Retention (NRR)/Gross Revenue Retention (GRR) by segment (Hobby, Pro, Custom) and target cohort (frontier AI, devtools, infra)
+- Relationship metrics: NPS/CSAT on “developer documentation experience” for key accounts/partners
+
+While NRR/GRR are straightforward, my experience with First Republic Bank made it clear to me, that you have to be careful in putting too much weight on relationship metrics. A customer can be your best customer, until they are not. And you will not see it coming.
+
+---
+
+## Customer Health KPIs
+
+We can determine customer health through the measurement of a variety of metrics. 
+
+### How deep is Mintlify embedded in the customer tech stack
+- How many different customer teams are using Mintlify within an account
+- a measure Editor Usage and number of editors
+- Update Frequency — % of pages updated in the last X days  
+- Assistant usage per 100 visits, agent usage, etc.
+
+### Business signals
+- Plan expansions: Hobby → Pro → Custom transitions, seat growth  
+- Usage based overages  
+- Decline in editor activity, disabled integrations, stalled migrations  
+- Docs moved off Mintlify  
+- Number of Active Authors
+
+These are all pretty typical metrics.  These metrics, in my experience, are more reflective customer engagement, which can be a leading indicator of customer success.
+
+---
+
+## Expansion Levers and How to Drive Them
+Each of these is an effort on its own. And different customers need different approaches. These are the common approaches. Some combination of these is not unusual.
+
+Multi-team expansion
+- Use the analytics portion of the QBR process to expose opportunities.
+
+Ecosystem expansion
+- Migrate more sources (Google Docs, Zendesk, custom markdown, Confluence, Notion) into a unified Mintlify hub.
+
+More teams, from the same customer, using the platform
+- Dev → Product → Success → Ops → Marketing.
+
+Analytics
+- Advanced Analytics becomes an add-on item. More depth cost more money and teams depend on insights.
+
+---
+
+### **The Systematic Expansion**
+
+By defining a maturity model, you provide customers a way of understanding whats possible and high level roadmap to get there.
+
+#### 1. Sample Mintlify Customer Maturity Model
+- Stage 1: Simple docs  
+- Stage 2: API reference & components  
+- Stage 3: Multi-team doc portals  
+- Stage 4: AI maintenance workflows  
+- Stage 5: Governance & enterprise automation
+
+#### 2. Quarterly Enablement Cadence
+- CS drives customers from Stage 1 → 2 within 90 days.  
+- Sales drives 3 → 5 tied to enterprise upgrades.
+
+#### 3. Success Plans Tied to KPIs
+- If a customer is not engaged we have work to do.
+
+#### 4. Proactive Usage Interventions
+- Alerts when activity drops.  
+- CS triggers "Customer Update Call"
+
+A process like this provides a measurable structured approach that leads the customer through their growth with the products.
+
+---
+
+## Stickiest Features and Churn Prevention
+
+### Most “lock-in” features
+- Unified, branded docs hub
+- AI-native experience — assistant, writing agent, MCP server, and terminal agents
+- Deep developer experience:
+  - API reference at /api path  
+  - IDE-like Editor
+  - Search  
+  - MDX
+
+This shows a product that is very mature at what it does. 
+
+You lose customers because they moved a different direction entirely, your product did not suit their needs or they did not get the support they needed. The first two they will tell you outright.  They last they rarely do. 
+
+Understand your customer. Offer them on opportunity for input. Strive to deliver products that meet or exceed their needs.  Provide top quality service and support. 
+
+Do those things well = happy customers.
+
+---
+
+## Engineering Resource Constraints and Enterprise Customers
+
+Every customer wants their favorite feature first. Without an agreed, standard process of assigning business value, you end up with the tail wagging the dog.
+
+So, How do we know that the features delivered are released in order of highest business value? 
+
+There are a million ways to approach feature prioritization. This is an approach that is driven by business value. 
+
+A. Business impact score
+- Impact on core value: docs self-serve, AI-native, faster to ship  
+- Cross-segment pull: number of customers requesting  
+- Magnitude of business impact: SSO, security, permissions, uptime SLAs  
+- Ticket reduction potential: search quality, IA, API playground  
+- Engineering leverage: platform features over bespoke work  
+- Revenue-Weighted Feature Demand 
+- Churn-Risk Reduction Score 
+- Adoption Impact Score 
+- Time-to-Value Impact 
+- Support-Ticket Correlation
+
+B. Engineering complexity score
+- Time cost  
+- Architectural debt  
+- Maintenance multiplier  
+
+Agree on the definition of these terms and the calculation of a scoring model. The resulting model will then provide prioritization more aligned to business value.
+
+And allow us to know exactly how features should impact the business.
+
